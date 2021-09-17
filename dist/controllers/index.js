@@ -1,2 +1,0 @@
-"use strict";var _services=require("../services");var _account=_interopRequireDefault(require("./account.controller"));var _transaction=_interopRequireDefault(require("./transaction.controller"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{"default":obj}}module.exports={AccountController:new _account["default"](_services.AccountService),TransactionController:new _transaction["default"](_services.TransactionService)};
-//# sourceMappingURL=index.js.map

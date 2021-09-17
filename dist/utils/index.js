@@ -1,2 +1,0 @@
-"use strict";var _logger=_interopRequireDefault(require("./logger"));var _generateMessage=require("./generate-message");function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{"default":obj}}module.exports={logger:_logger["default"],generateMessages:_generateMessage.generateMessages};
-//# sourceMappingURL=index.js.map

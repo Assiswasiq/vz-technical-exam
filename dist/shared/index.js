@@ -1,2 +1,0 @@
-"use strict";var _helper=_interopRequireDefault(require("./helper"));var _fileHandler=_interopRequireDefault(require("./file-handler"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{"default":obj}}module.exports={Helper:_helper["default"],FileHandler:new _fileHandler["default"]};
-//# sourceMappingURL=index.js.map
