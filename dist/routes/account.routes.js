@@ -1,0 +1,4 @@
+"use strict";var _express=_interopRequireDefault(require("express"));var _responseGenerator=_interopRequireDefault(require("../utils/middleware/response-generator"));function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{"default":obj}}var accountRoutes=_express["default"].Router();/**
+ * Account controllers (route handlers).
+ */var _require=require("../controllers"),AccountController=_require.AccountController;accountRoutes.get("/",function(){return AccountController.get.apply(AccountController,arguments)},_responseGenerator["default"].generate);module.exports=accountRoutes;
+//# sourceMappingURL=account.routes.js.map

@@ -1,0 +1,2 @@
+"use strict";var _transaction=_interopRequireDefault(require("./transaction.service"));var _account=_interopRequireDefault(require("./account.service"));var _shared=require("../shared");function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{"default":obj}}module.exports={TransactionService:new _transaction["default"](_shared.FileHandler),AccountService:new _account["default"](_shared.FileHandler)};
+//# sourceMappingURL=index.js.map

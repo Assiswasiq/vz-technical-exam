@@ -1,0 +1,40 @@
+{
+    "development": {
+        "en": {
+            "SUCCESS" : {
+                "message": "success",
+                "status": 200
+            },
+            "TRANSACTION_HISTORY_FETCHED_SUCCESSFULLY" : {
+                "message": "Transaction history fetched successfully",
+                "status": 200
+            },
+            "TRANSACTION_CREATED_SUCCESSFULLY": {
+                "message": "Transaction created successfully",
+                "status": 200
+            },
+            "IN_SUFFICIENT_BALANCE": {
+                "message": "In sufficient balance",
+                "status": 400
+            },
+            "ACCOUNT_DETAILS_FETCHED_SUCCESSFULLY": {
+                "message": "Account details fetched successfully",
+                "status": 200   
+            },
+            "INTERNAL_SERVER_ERROR": {
+                "message": "Internal server error",
+                "status": 500
+            },
+            "NO_RECORD_FOUND": {
+                "message": "No record exists in the system.",
+                "status": 400
+            }
+        }
+    },
+    "qa": {
+    },
+    "staging": {
+    },
+    "prod": {
+    }
+}
