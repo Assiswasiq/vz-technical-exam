@@ -9,7 +9,6 @@
     "build": "rm -rf dist && mkdir dist && babel src -s -d dist --minified && npm run copy-config",
     "babel": "babel-node ./src/app.js",
     "dev": "nodemon --exec npm run babel && npm run remove-build",
-    "lint": "eslint",
     "copy-config": "node copyDbConfig.js",
     "remove-build": "node removeDist.js",
     "test": "nyc --require @babel/register mocha --timeout 10000 --exit",

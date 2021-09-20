@@ -46,16 +46,16 @@ The full folder structure of this app is explained below:
 | **.vscode**              | Contains VS Code specific settings.                                                           |
 | **src**                  | Contains the source code written in ES6.                                                      |
 | **src/database**         | Contains in memory stored database.                                                           |
-| **src/config**           | Contains the configutations for the application databases etc.                                |
-| **src/routes**           | Contains all your application routes.                                                               |
-| **src/services**         | Responsible for implementing the business logic, and provide the operation result.         |
+| **src/config**           | Contains the multilingual message codes etc.                                                  |
+| **src/routes**           | Contains all your application routes.                                                         |
+| **src/services**         | Responsible for implementing the business logic, and provide the operation result.            |
 | **src/shared**           | Contains shared element within classes or modules.                                            |
 | **src/utils**            | Contains application's utilities.                                                             |
 | **app.js**               | Main application file and contains express application configurations.                        |
-| **test**                 | Contain all the test files.                                                   |
+| **test**                 | Contain all the test files.                                                                   |
 | **dist**                 | Contain all the build files for production.                                                   |
 | **node_modules**         | Contains all your npm dependencies.                                                           |
-| **package.json**            | Contains all your npm modules.                                          |
+| **package.json**         | Contains all your npm modules.                                          |
 
 ### Running the scripts
 Npm scripts basically allow us to call (and chain) terminal commands via npm.
@@ -68,30 +68,13 @@ Below is a list of all the scripts this template has available:
 
 | Npm Script | Description |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| `start`                   | Run the `./app.js` main file. Can be invoked with `npm start`.   |
-| `test`             | Run the test file.        |
-| `build`                   | Full build for production.                                                         |
+| `start`                   | Run the `./app.js` main file. Can be invoked with `npm start`.      |
+| `test`                    | Run the test file.           										  |
+| `build`                   | Full build for production.                                          |
 | `dev`                     | Runs nodemon on `src/app.js` which is the apps entry point.         |
 | `lint`                    | Runs ESLint on project files.                                       |
 | `copy-config`             | Copies the sequelize config file into dist/config directory.        |
-| `remove-build`             | Run the `./removeDist.js`.        |
-
-
-## ESLint
-ESLint is a code linter which mainly helps catch minor code quality and style issues.
-
-### ESLint rules
-Like most linters, TSLint has a wide set of configurable rules as well as support for custom rule sets.
-All rules are configured through `eslint.json`.
-In this project, we are using a fairly basic set of rules with no additional custom rules.
-The settings are largely based off the ESLint settings that we use to develop JavaScript itself.
-
-### Running ESLint
-To run ESLint you can call the main build script or just the ESLint task.
-```
-npm run eslint  // runs only ESLint
-```
-Notice that ESLint is not a part of the main watch task.
+| `remove-build`            | Run the `./removeDist.js`.                                          |
 
 # Dependencies
 Dependencies are managed through `package.json`.
@@ -112,8 +95,8 @@ In that file you'll find two sections:
 | ------------------------------- | ---------------------------------------------------------------------- |
 | nodemon                         | nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.             |
 | shelljs                         | Portable Unix shell commands for Node.js                               |
-| @babel/cli                        | Babel command line                              |
-| @babel/core                         | Babel compiler core               |
+| @babel/cli                      | Babel command line                              |
+| @babel/core                     | Babel compiler core               |
 | @babel/node                         | Babel command line for Node                    |
 | @babel/polyfill                         | Provides polyfills necessary for a full ES2015+ environment                   |
 | @babel/preset-env                         | A Babel preset for each environment.                             |
@@ -125,5 +108,5 @@ In that file you'll find two sections:
 To install or update these dependencies you can use `npm install` or `npm update`.
 
 ## License
-Copyright (c) Deline Media LLC. All rights reserved.
+Copyright (c) Assis Wasiq. All rights reserved.
 Licensed under the [MIT](LICENSE.txt) License.
