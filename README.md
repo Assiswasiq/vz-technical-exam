@@ -17,8 +17,6 @@ Account app description
 # Pre-reqs
 To build and run this app locally you will need a few things:
 - Install [Node.js](https://nodejs.org/en/)(VERSION 10.16.0)
-- Install [Sequelize](http://docs.sequelizejs.com/manual/getting-started.html#installing)(VERSION 5.9.4)
-- Install [Sequelize-CLI](https://www.npmjs.com/package/sequelize-cli)(VERSION 5.5.0)
 - Install [VS Code](https://code.visualstudio.com/)
 
 # Getting started
@@ -30,13 +28,6 @@ git clone https://github.com/assiswasiq/vz-technical-exam.git
 ```
 cd <Account-app-server>
 npm install
-```
-- Configure app with your local MYSQL server.
-```bash
-# go to config file
-cd /src/config
-# update the cofig.js with your current local setting
-sudo nano config.json
 ```
 - Run the project
 ```
