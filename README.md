@@ -1,13 +1,13 @@
 
-# Kiosk Backend
+# Account App Backend
 
-Kiosk description
+Account app description
 
 # Table of contents:
 ![Build status](https://img.shields.io/travis/request/request/master.svg?style=flat-square)  ![Dependency Status](https://img.shields.io/david/request/request.svg?style=flat-square) ![Known Vulnerabilities](https://snyk.io/test/npm/request/badge.svg?style=flat-square)
 - [Pre-reqs](#pre-reqs)
 - [Getting started](#getting-started)
-- [Kiosk Backend](#kiosk-backend)
+- [Account app Backend](#account-app-backend)
 	- [Project Structure](#project-structure)
 	- [ESLint](#eslint)
 - [Dependencies](#dependencies)
@@ -24,11 +24,11 @@ To build and run this app locally you will need a few things:
 # Getting started
 - Clone the repository
 ```
-git clone https://bitbucket.org/cm-node-backend/kiosk-revamp/src/master/
+git clone https://github.com/assiswasiq/vz-technical-exam.git
 ```
 - Install dependencies
 ```
-cd <Kiosk-server>
+cd <Account-app-server>
 npm install
 ```
 - Configure app with your local MYSQL server.
