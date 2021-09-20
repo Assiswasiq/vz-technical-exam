@@ -9,7 +9,6 @@ Account app description
 - [Getting started](#getting-started)
 - [Account app Backend](#account-app-backend)
 	- [Project Structure](#project-structure)
-	- [ESLint](#eslint)
 - [Dependencies](#dependencies)
 	- [`dependencies`](#dependencies-1)
 	- [`devDependencies`](#devdependencies)
